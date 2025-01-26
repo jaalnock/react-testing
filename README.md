@@ -48,3 +48,18 @@ npm install --save-dev @babel/preset-env @babel/preset-react jest @testing-libra
 - **`jest-environment-jsdom`**: Configures Jest to use `jsdom` (a browser-like environment) for running tests.
 
 - **`@testing-library/user-event`**: A library for simulating user interactions in tests, such as clicks, typing, etc.
+
+
+
+# Running Tests While Keeping the App Active
+
+To run your tests while keeping your app active, follow these steps:
+
+1. Open another terminal window (while your app is running).
+2. In the new terminal, type the following command:
+
+```bash
+npm run test
+```
+
+This will run your tests, and the app will continue running in the original terminal.
