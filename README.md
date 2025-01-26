@@ -19,3 +19,32 @@ Jest is a popular JavaScript testing framework developed by Facebook. It's widel
 - **Code Coverage**: Jest can track and generate code coverage reports to show you how much of your code is covered by tests.
 
 - **Asynchronous Testing**: Jest supports testing asynchronous code with promises, `async/await`, and callbacks, making it useful for testing APIs, async functions, and more.
+
+# Project Setup
+
+This project uses Babel, Jest, and React Testing Library for modern JavaScript and React development. The following command installs necessary dependencies for setting up Babel and testing tools.
+
+## Installation
+
+To get started, run the following command to install the required dependencies as development dependencies:
+
+```bash
+npm install --save-dev @babel/preset-env @babel/preset-react jest @testing-library/react @testing-library/jest-dom jest-environment-jsdom @testing-library/user-event
+
+```
+
+### Breakdown of the Installed Packages
+
+- **`@babel/preset-env`**: This Babel preset allows you to use the latest JavaScript features while ensuring compatibility with the environments you target.
+
+- **`@babel/preset-react`**: This Babel preset is necessary to compile JSX syntax for React projects.
+
+- **`jest`**: A popular testing framework for JavaScript applications.
+
+- **`@testing-library/react`**: A set of utilities for testing React components in a way that simulates real user behavior.
+
+- **`@testing-library/jest-dom`**: Custom matchers for Jest, making it easier to assert things about DOM elements.
+
+- **`jest-environment-jsdom`**: Configures Jest to use `jsdom` (a browser-like environment) for running tests.
+
+- **`@testing-library/user-event`**: A library for simulating user interactions in tests, such as clicks, typing, etc.

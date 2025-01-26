@@ -3,7 +3,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div>This is App Component</div>
+      <div>
+        <h1>React Unit Testing</h1>
+      </div>
     </>
   );
 }
