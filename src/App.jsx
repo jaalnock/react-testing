@@ -2,6 +2,8 @@ import "./App.css";
 import ApiTesting from "./components/apiTesting";
 import Counter from "./components/counter";
 import HelloWorld from "./components/helloWorld";
+import ThemeButton from "./components/themeButton";
+import ThemeRender from "./components/themeRender";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <HelloWorld />
         <Counter />
         <ApiTesting />
+        <ThemeRender />
+        <ThemeButton />
       </div>
     </>
   );
