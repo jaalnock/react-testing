@@ -1,5 +1,4 @@
 import { fireEvent, render } from "@testing-library/react";
-import HelloWorld from "../components/helloWorld";
 import "@testing-library/jest-dom";
 import Counter from "../components/counter";
 
